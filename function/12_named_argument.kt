@@ -5,5 +5,5 @@ fun greet(name: String, age: Int){
 
 fun main(){
     //arguments
-    greet(age=18, name="Ratha")
+    greet(age=18, name="Ratha")// we can set arguments as unorder because we have declared its name already
 }
