@@ -3,5 +3,8 @@ fun main(){
     numbers.add(4)
     numbers.add(2) // duplicate, won't be added
     println(numbers)
+    for(i in numbers){
+        println(i)
+    }
 
 }

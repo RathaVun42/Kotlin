@@ -1,5 +1,6 @@
 fun main(){
-    val doubleArray = doubleArrayOf(1.2,1.0,3.9,4.4)
+    val doubleArray = doubleArrayOf(1.2,1.0,3.9,4.4) // primative array
+    val doubleArray1 = arrayOf<Double>(1.2,1.0,3.9,4.4) // boxed array
     // access and print elements
     println("First element ${doubleArray[0]}")
     // modify an element
